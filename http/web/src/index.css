@@ -1,0 +1,59 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+*{
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (min-width: 0) {
+    /* gradient and box shandow 是性能杀手，能免则免 */
+    /* body{
+        background: linear-gradient(to left top, #fff 20%, rgba(177, 205, 50, .6) 40%,orange 60%, rgba(255, 0, 0, .5) 80%, #fff 100%);
+        background-size: 400%;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        animation: colorfloor 6000ms linear infinite;
+    } */
+    /* body {
+        background-color: rgba(177, 205, 50, 0.6)
+    } */
+    .rotatedCube {
+        display: none;
+    }
+}
+@media screen and (min-width: 420px) {
+    /* body{
+        background: linear-gradient(to right top, red 10%, orange 20%,yellow 30%, green 40%, cyan 50%, blue 60%, purple 70%, brown 80%, grey 90%, white 100%);
+        background-size: 400%;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        animation: colorfloor 12000ms linear infinite;
+    } */
+    /* .wrapper{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(155,200,200,.3) 
+    } */
+    .rotatedCube {
+        display: block;
+    }
+}
+/*动画帧 炫酷背景动态色彩*/
+/* @keyframes colorfloor{
+    0% {
+        background-position: 100% 0;
+    }
+    50% {
+        background-position: 0 50%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+} */

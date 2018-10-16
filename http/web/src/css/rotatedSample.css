@@ -1,0 +1,78 @@
+.rotatedCube {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 200px auto;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    animation: rotate 10000ms linear infinite;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate3d(1,1,1,0deg);
+    }
+    100% {
+        transform: rotate3d(-1,-1,-1,360deg);
+    }
+}
+.rotatedCube .cube{
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    line-height: 200px;
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+}
+.rotatedCube .cube:nth-child(1) {
+    /* transform: rotateZ(45deg); */
+    /*立方体的六个表面*/
+    /* background-color: aquamarine; */
+    opacity: 0.5;
+}
+.rotatedCube .cube:nth-child(2) {
+    transform: translate3d(0,100px,-100px) rotateX(90deg);
+    /* background-color: black; */
+    /* opacity: 0.5; */
+}
+.rotatedCube .cube:nth-child(3) {
+    transform: translate3d(0,0,-200px);
+    /* background-color: red; */
+    /* opacity: 0.5; */
+}
+.rotatedCube .cube:nth-child(4) {
+    transform: translate3d(100px,0,-100px) rotateY(90deg);
+    /* background-color: orangered; */
+    /* opacity: 0.5; */
+}
+.rotatedCube .cube:nth-child(5) {
+    transform: translate3d(0,-100px,-100px) rotateX(90deg);
+    /* background-color: white; */
+    /* opacity: 0.5; */
+}
+.rotatedCube .cube:nth-child(6) {
+    transform: translate3d(-100px,0,-100px) rotateY(90deg);
+    /* background-color: greenyellow; */
+    /* opacity: 0.5; */
+}
+.rotatedCube .cube .circle {
+    width: 40px;
+    height: 40px;
+    margin: 80px auto;
+    background-color: yellowgreen;
+    /* border-radius: 50%; */
+    opacity: .3;
+    animation: scale 20000ms linear infinite;
+}
+@keyframes scale {
+    0% {
+        transform: scale(0.1);
+    }
+    50% {
+        transform: scale(5);
+    }
+    100% {
+        transform: scale(0.5);
+    }
+}
