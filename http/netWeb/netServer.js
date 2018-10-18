@@ -1,6 +1,6 @@
-var net = require("net");
+var net = require("net");//TCP/IP协议 网络和运输层
 var fs = require("fs");
-var globalConf = require("./web/config.js");
+var globalConf = require("../web/config.js");
 var server = net.createServer();
 // console.log(globalConf);
 // console.log(arguments);
@@ -8,7 +8,7 @@ let path_g = globalConf.path;
 let port_g = globalConf.port;
 server.listen(port_g, "127.0.0.1");
 
-server.on("listening", function() {
+server.on("listening", function () {
     console.log("服务已启动");
 })
 server.on("connection", function (socket) {
@@ -24,8 +24,8 @@ server.on("connection", function (socket) {
         // var sb = globalConf.path + url;
         console.log(route);
         // console.log(sb);
-        
-        try{
+
+        try {
 
             var dataFile = fs.readFileSync(route);
             socket.write('HTTP/1.1 200OK\r\n\r\n');
