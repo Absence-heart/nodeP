@@ -6,6 +6,6 @@ const mogan = (data) => {
     fs.writeFile(fileName, data + new Date() + "\n", { flag: "a" }, () => {
         // console.log("done");
     });
-}
+};
 module.exports = mogan;
 // fs.writeFileSync(fileName, "ads")

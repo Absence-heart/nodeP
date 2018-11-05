@@ -1,11 +1,25 @@
-const fs = require('fs');
+const url = require('url');
+const studentService = require('../servcie/studentService');
 const path = new Map();
-const getData1 = (request, response) => {
-    console.log(response)
-}
-const getData2 = () => {
-    console.log("haha");
-}
-path.set("/login.js", getData1);
-path.set("/getData2", getData2);
+
+const loginConfirm = (request, response) => {
+    let params = url.parse(request.url, true).query;
+    // console.log(params);
+    studentService.loginHandle(params.username, function (result) {
+        let str = "";
+        if(result[0]){
+            let [{stu_pwd}] = result;
+            if(stu_pwd === params.password) {
+                str = "OK";
+            }else {
+                str = "FAIL";
+            }
+        }else{
+            str = "FAIL";
+        }
+        response.write(str);
+        response.end();
+    });
+};
+path.set("/login", loginConfirm);
 module.exports.path = path;
