@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11b1968a-4f3c-4821-8812-a27b0b53b5f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/httpWeb/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/http/httpWeb/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/httpWeb/loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/http/httpWeb/loader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/httpWeb/log.js" beforeDir="false" afterPath="$PROJECT_DIR$/http/httpWeb/log.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/httpWeb/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/http/httpWeb/page/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/httpWeb/page/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/http/httpWeb/page/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/httpWeb/server.conf" beforeDir="false" afterPath="$PROJECT_DIR$/http/httpWeb/server.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/httpWeb/web/loginController.js" beforeDir="false" afterPath="$PROJECT_DIR$/http/httpWeb/web/loginController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/httpWeb/web/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/netWeb/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/netWeb/netServer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/netWeb/rotatedSample.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/netWeb/serverconfig.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/netWeb/src/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/netWeb/src/css/rotatedSample.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/netWeb/src/icons/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/netWeb/src/images/da.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/netWeb/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/netWeb/src/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/netWeb/src/music/music.flac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/netWeb/src/music/韩红 - 心语.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/web/httpServer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/httpWeb/filterLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/http/httpWeb/filterLoader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/httpWeb/log/server.log" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,35 +19,36 @@
     <session id="1709890427">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="conf" value="1" />
-          <entry key="html" value="2" />
-          <entry key="js" value="17" />
+          <entry key="html" value="4" />
+          <entry key="js" value="18" />
           <entry key="json" value="2" />
+          <entry key="log" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
+          <entry key="HTML" value="4" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="17" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JavaScript" value="18" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="conf" value="19" />
           <entry key="html" value="419" />
-          <entry key="js" value="3555" />
+          <entry key="js" value="3561" />
           <entry key="json" value="2" />
         </counts>
       </usages-collector>
@@ -74,7 +56,7 @@
         <counts>
           <entry key="HTML" value="419" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="3555" />
+          <entry key="JavaScript" value="3561" />
           <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
@@ -85,26 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/http/httpWeb/page/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
+            <state relative-caret-position="364">
               <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/http/httpWeb/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/http/httpWeb/loader.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="16" column="1" lean-forward="true" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -112,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/http/httpWeb/dao/studentDao.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="208">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -144,7 +108,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/http/httpWeb/web/loginController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
+            <state relative-caret-position="234">
               <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
             </state>
           </provider>
@@ -158,8 +122,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/http/httpWeb/filterLoader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="182">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/http/httpWeb/page/isLogin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/http/httpWeb/page/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -248,28 +230,7 @@
               <item name="nodeP" type="462c0819:PsiDirectoryNode" />
               <item name="http" type="462c0819:PsiDirectoryNode" />
               <item name="httpWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodeP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodeP" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="httpWeb" type="462c0819:PsiDirectoryNode" />
               <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodeP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodeP" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="httpWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodeP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodeP" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="httpWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="servcie" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -347,11 +308,12 @@
       <workItem from="1540974229802" duration="5652000" />
       <workItem from="1540994790833" duration="24389000" />
       <workItem from="1541125960873" duration="9398000" />
+      <workItem from="1541598084256" duration="1150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61422000" />
+    <option name="totallyTimeSpent" value="62572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1906" height="1047" extended-state="0" />
@@ -417,20 +379,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/http/httpWeb/web/test.js" />
-    <entry file="file://$PROJECT_DIR$/http/httpWeb/page/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http/httpWeb/page/isLogin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/http/httpWeb/dao/dbutil.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -440,15 +388,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/http/httpWeb/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
+        <state relative-caret-position="936">
           <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/http/httpWeb/page/login.js">
+    <entry file="file://$PROJECT_DIR$/http/httpWeb/loader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        <state relative-caret-position="416">
+          <caret line="16" column="1" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/httpWeb/dao/studentDao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -459,19 +414,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/http/httpWeb/dao/studentDao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/http/httpWeb/config.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/http/httpWeb/web/loginController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
+        <state relative-caret-position="234">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/httpWeb/log/server.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/httpWeb/page/isLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/httpWeb/page/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/httpWeb/page/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/httpWeb/filter/loginFilter.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/http/httpWeb/server.conf">
       <provider selected="true" editor-type-id="text-editor">
@@ -480,23 +458,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/http/httpWeb/config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http/httpWeb/filter/loginFilter.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http/httpWeb/loader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="16" column="1" lean-forward="true" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/http/httpWeb/filterLoader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="182">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
